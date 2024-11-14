@@ -61,8 +61,7 @@ menu1=\
 9- elegir ver la suma de las dos diagonales o por separado
 10- salir
 
-ingrese el numero:
-'''
+ingrese el numero:'''
 
 depositos = ["Tierra del Fuego", "Tucumán", "Mendoza", "BsAs", "Misiones" , "Santa Fé"]
 camisetas = ["Barcelona", "Inter Miami", "PSG", "Manchester City" ,"Real Madrid"]
