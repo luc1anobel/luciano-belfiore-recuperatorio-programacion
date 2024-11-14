@@ -93,13 +93,15 @@ while res == True:
         case "6":
             pass
         case "7":
+            pass
+        case "8":
             matriz_sin_trasponer = [[1,2,3,],
                                     [2,3,4,],
                                     [7,9,2,]]
             matris_traspuesta = trasponer_matriz(matriz_sin_trasponer)
             print(f"la matris traspuesta seria:")
             mostrar_matriz(matris_traspuesta)
-        case "8":
-            pass
         case "9":
+            pass
+        case "10":
             res = False
