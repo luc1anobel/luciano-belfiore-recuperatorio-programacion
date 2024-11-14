@@ -61,7 +61,7 @@ menu1=\
 9- elegir ver la suma de las dos diagonales o por separado
 10- salir
 
-ingrese el numero:'''
+ingrese el numero: '''
 
 depositos = ["Tierra del Fuego", "Tucumán", "Mendoza", "BsAs", "Misiones" , "Santa Fé"]
 camisetas = ["Barcelona", "Inter Miami", "PSG", "Manchester City" ,"Real Madrid"]
@@ -97,6 +97,7 @@ while res == True:
                                     [2,3,4,],
                                     [7,9,2,]]
             matris_traspuesta = trasponer_matriz(matriz_sin_trasponer)
+            print(f"la matris traspuesta seria:")
             mostrar_matriz(matris_traspuesta)
         case "8":
             pass
