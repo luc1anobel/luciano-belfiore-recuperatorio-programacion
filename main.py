@@ -48,6 +48,22 @@ Devuelve 30.
 pretende recibir como retorno es la suma de ambas diagonales, solo la de la diagonal
 principal o solo la de la diagonal secundaria.'''
 
+menu1=\
+'''
+1- Obtener existencias
+2- Mostrar depósitos que tienen en stock más de 10.000 camisetas.
+3- Mostrar equipos que hay en stock más de 5.000 camisetas.
+4- Maxima cantidad de camisetas
+5- Cargar ventas
+6- Generar una función que calcule la media geométrica
+7- Generar una función que calcule la suma de las diagonales de una matriz
+8- muestra la matriz traspuesta
+9- elegir ver la suma de las dos diagonales o por separado
+10- salir
+
+ingrese el numero:
+'''
+
 depositos = ["Tierra del Fuego", "Tucumán", "Mendoza", "BsAs", "Misiones" , "Santa Fé"]
 camisetas = ["Barcelona", "Inter Miami", "PSG", "Manchester City" ,"Real Madrid"]
 res = True
@@ -55,7 +71,7 @@ carga = True
 #matriz_general = [[10000,2,3,1,2],[1,10,1,10000,1],[1,1,1000,1,2],[1,2,10,4,5000],[6000,5,3,1,4],[0,9,8,4,3]]
 while res == True:
 
-    menu = input("ingrese el numero: ")
+    menu = input(menu1)
     match menu:
         case "1":
             if carga == True:
